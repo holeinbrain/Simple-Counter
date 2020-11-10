@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C537B93255A2DE3000649C9 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C537B92255A2DE2000649C9 /* share.png */; };
 		2CFD939D255953D30016A361 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD939C255953D30016A361 /* AppDelegate.swift */; };
 		2CFD939F255953D30016A361 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD939E255953D30016A361 /* SceneDelegate.swift */; };
 		2CFD93A1255953D30016A361 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD93A0255953D30016A361 /* ViewController.swift */; };
@@ -16,10 +17,10 @@
 		2CFD93B1255953FF0016A361 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFD93B0255953FF0016A361 /* SecondViewController.swift */; };
 		2CFD93B42559582C0016A361 /* minus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD93B22559582C0016A361 /* minus.png */; };
 		2CFD93B52559582C0016A361 /* plus.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD93B32559582C0016A361 /* plus.png */; };
-		2CFD93BB25595C790016A361 /* share.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CFD93BA25595C790016A361 /* share.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C537B92255A2DE2000649C9 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 		2CFD9399255953D30016A361 /* Simple Counter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Counter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFD939C255953D30016A361 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CFD939E255953D30016A361 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,7 +32,6 @@
 		2CFD93B0255953FF0016A361 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2CFD93B22559582C0016A361 /* minus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = minus.png; sourceTree = "<group>"; };
 		2CFD93B32559582C0016A361 /* plus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus.png; sourceTree = "<group>"; };
-		2CFD93BA25595C790016A361 /* share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = share.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +69,7 @@
 				2CFD93A0255953D30016A361 /* ViewController.swift */,
 				2CFD93B0255953FF0016A361 /* SecondViewController.swift */,
 				2CFD93A2255953D30016A361 /* Main.storyboard */,
-				2CFD93BA25595C790016A361 /* share.png */,
+				2C537B92255A2DE2000649C9 /* share.png */,
 				2CFD93B22559582C0016A361 /* minus.png */,
 				2CFD93B32559582C0016A361 /* plus.png */,
 				2CFD93A5255953D60016A361 /* Assets.xcassets */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFD93B42559582C0016A361 /* minus.png in Resources */,
-				2CFD93BB25595C790016A361 /* share.png in Resources */,
+				2C537B93255A2DE3000649C9 /* share.png in Resources */,
 				2CFD93B52559582C0016A361 /* plus.png in Resources */,
 				2CFD93A9255953D60016A361 /* LaunchScreen.storyboard in Resources */,
 				2CFD93A6255953D60016A361 /* Assets.xcassets in Resources */,
@@ -310,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "antlvn.Simple-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -328,7 +328,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "antlvn.Simple-Counter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
