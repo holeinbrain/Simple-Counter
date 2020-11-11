@@ -10,25 +10,19 @@ import UIKit
 
 
 
-class ViewController: UIViewController {
-    
-    
- 
+class ViewController: UIViewController{
     var count = 0
     @IBOutlet weak var lable: UILabel!
-    
+    @IBOutlet weak var textField : UITextField!
+    @IBAction func unwindowToViewController (sender: UIStoryboardSegue) {
+      
+   }
     override func viewDidLoad() {
         super.viewDidLoad()
  
     }
 
-    @IBAction func unwindowToViewController (sender: UIStoryboardSegue) {
-       
-    }
-    
-    @IBAction func shareButton(_ sender: Any) {
-        
-    }
+
     
     @IBAction func plusButton(_ sender: Any) {
         count += 1
@@ -43,5 +37,15 @@ class ViewController: UIViewController {
         lable.text = "\(count)"
         }
     }
-}
+    
+    
+ 
+    
+    @IBAction func buttonShare() {
+        let textActivityController = UIActivityViewController(activityItems: [textField.text! + " : " + "\(count)" ], applicationActivities: nil)
+        present(textActivityController, animated: true, completion: nil)
+    }
 
+
+
+}
