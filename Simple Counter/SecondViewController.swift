@@ -29,7 +29,7 @@ class SecondViewController: UIViewController {
     
     
     @IBAction func secondPlus() {
-        secondCount += 1
+        secondCount +=  1
         secondLable.text = "\(secondCount)"
     }
     

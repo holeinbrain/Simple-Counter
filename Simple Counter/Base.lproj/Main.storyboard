@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,11 +13,11 @@
             <objects>
                 <viewController title="One ounter" id="BYZ-38-t0r" customClass="ViewController" customModule="Simple_Counter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="E0m-Yv-ctB">
-                                <rect key="frame" x="15" y="702" width="384" height="140"/>
+                                <rect key="frame" x="15" y="618" width="345" height="140"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wFW-sK-r5F" userLabel="MinusButton">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
@@ -25,7 +25,7 @@
                                             <constraint firstAttribute="height" constant="140" id="04R-TK-s1T"/>
                                             <constraint firstAttribute="width" constant="140" id="fsb-P8-pUZ"/>
                                         </constraints>
-                                        <state key="normal" image="minus.png">
+                                        <state key="normal" image="minus">
                                             <attributedString key="attributedTitle"/>
                                         </state>
                                         <connections>
@@ -33,12 +33,12 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Eo-KV-aTK" userLabel="PlusButton">
-                                        <rect key="frame" x="244" y="0.0" width="140" height="140"/>
+                                        <rect key="frame" x="205" y="0.0" width="140" height="140"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="140" id="C8l-f3-2rR"/>
                                             <constraint firstAttribute="width" constant="140" id="vvA-l3-ev6"/>
                                         </constraints>
-                                        <state key="normal" image="plus.png">
+                                        <state key="normal" image="plus">
                                             <attributedString key="attributedTitle"/>
                                         </state>
                                         <connections>
@@ -51,7 +51,7 @@
                                 </constraints>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4f-om-Xyl">
-                                <rect key="frame" x="141" y="123" width="132" height="39"/>
+                                <rect key="frame" x="121.66666666666669" y="123" width="132" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Two Counters">
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -62,12 +62,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lZ9-Gj-DLf" userLabel="Share">
-                                <rect key="frame" x="137" y="458" width="140" height="140"/>
+                                <rect key="frame" x="117.66666666666669" y="416" width="140" height="140"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="140" id="KSe-cu-djM"/>
                                     <constraint firstAttribute="width" constant="140" id="Zqy-pH-pWQ"/>
                                 </constraints>
-                                <state key="normal" image="share.png">
+                                <state key="normal" image="share">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
@@ -75,12 +75,12 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="meR-1g-mWE">
-                                <rect key="frame" x="193" y="277" width="201" height="34"/>
+                                <rect key="frame" x="173.66666666666663" y="277" width="181.33333333333337" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o1Z-gs-uvk">
-                                <rect key="frame" x="51" y="276" width="100" height="34"/>
+                                <rect key="frame" x="51" y="276" width="61" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="Qt4-ba-RjW"/>
                                     <constraint firstAttribute="height" constant="34" id="wJg-Xd-HYq"/>
@@ -125,11 +125,11 @@
             <objects>
                 <viewController title="Two Counter" id="lH6-MV-TeR" customClass="SecondViewController" customModule="Simple_Counter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="OZ2-qn-CL2">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="F1f-pu-KHm">
-                                <rect key="frame" x="64" y="510" width="304" height="250"/>
+                                <rect key="frame" x="64" y="468" width="289" height="208"/>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="firstLable" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kXh-aS-Uzg">
                                 <rect key="frame" x="36" y="113" width="100" height="34"/>
@@ -142,7 +142,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RQX-Z4-i4O">
-                                <rect key="frame" x="159" y="196" width="201" height="34"/>
+                                <rect key="frame" x="144" y="196" width="201" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="5qY-OQ-CO6"/>
                                     <constraint firstAttribute="width" constant="201" id="9Nj-w0-Jh6"/>
@@ -151,7 +151,7 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ae-Tr-vtB">
-                                <rect key="frame" x="122" y="25" width="170" height="39"/>
+                                <rect key="frame" x="122" y="25" width="155" height="39"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="One Counter">
                                     <color key="titleColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -161,12 +161,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="130" verticalHuggingPriority="130" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Exu-zC-myr" userLabel="PlusFirst">
-                                <rect key="frame" x="269" y="478" width="130" height="130"/>
+                                <rect key="frame" x="254" y="394" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="YGX-8X-5aj"/>
                                     <constraint firstAttribute="width" constant="130" id="kRn-bL-Ul3"/>
                                 </constraints>
-                                <state key="normal" image="plus.png">
+                                <state key="normal" image="plus">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
@@ -174,12 +174,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="130" verticalHuggingPriority="130" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Xo-Kr-Ydi" userLabel="PlusSecond">
-                                <rect key="frame" x="269" y="658" width="130" height="130"/>
+                                <rect key="frame" x="254" y="574" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="ZCz-v1-Yke"/>
                                     <constraint firstAttribute="width" constant="130" id="tAu-8u-Pzz"/>
                                 </constraints>
-                                <state key="normal" image="plus.png">
+                                <state key="normal" image="plus">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
@@ -187,12 +187,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="130" verticalHuggingPriority="130" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gZi-O3-TAN" userLabel="MinusSecond">
-                                <rect key="frame" x="15" y="658" width="130" height="130"/>
+                                <rect key="frame" x="15" y="574" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="130" id="fKF-jx-ZZY"/>
                                     <constraint firstAttribute="width" constant="130" id="wMX-iH-c1Z"/>
                                 </constraints>
-                                <state key="normal" image="minus.png">
+                                <state key="normal" image="minus">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
@@ -200,12 +200,12 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="130" verticalHuggingPriority="130" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0Jx-Vp-t50" userLabel="MinusFirst">
-                                <rect key="frame" x="15" y="478" width="130" height="130"/>
+                                <rect key="frame" x="15" y="394" width="130" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="CIM-4t-4kJ"/>
                                     <constraint firstAttribute="height" constant="130" id="Weg-B1-d26"/>
                                 </constraints>
-                                <state key="normal" image="minus.png">
+                                <state key="normal" image="minus">
                                     <attributedString key="attributedTitle"/>
                                 </state>
                                 <connections>
@@ -213,7 +213,7 @@
                                 </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9XF-D1-7Zj">
-                                <rect key="frame" x="159" y="113" width="201" height="34"/>
+                                <rect key="frame" x="313" y="113" width="32" height="34"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="34" id="78Z-EP-dy9"/>
                                     <constraint firstAttribute="width" constant="201" id="NcE-gf-Skh"/>
@@ -232,12 +232,12 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mXO-60-mr7" userLabel="Share">
-                                <rect key="frame" x="142" y="325" width="130" height="130"/>
+                                <rect key="frame" x="134.66666666666666" y="283" width="129.99999999999997" height="130"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="130" id="4xl-Ka-TzK"/>
                                     <constraint firstAttribute="height" constant="130" id="G7k-QQ-bQd"/>
                                 </constraints>
-                                <state key="normal" title="Button" image="share.png"/>
+                                <state key="normal" title="Button" image="share"/>
                                 <connections>
                                     <action selector="shareButtonTwo" destination="lH6-MV-TeR" eventType="touchUpInside" id="wJD-Wt-U6Q"/>
                                 </connections>
@@ -291,8 +291,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="minus.png" width="250" height="250"/>
-        <image name="plus.png" width="250" height="250"/>
-        <image name="share.png" width="250" height="250"/>
+        <image name="minus" width="250" height="250"/>
+        <image name="plus" width="250" height="250"/>
+        <image name="share" width="250" height="250"/>
     </resources>
 </document>
